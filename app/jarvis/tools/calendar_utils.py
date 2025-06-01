@@ -67,8 +67,7 @@ def parse_datetime(datetime_str):
             continue
 
     return None
-
-def get_current_time() ->  dict :
+def get_current_time() -> dict :
     now = datetime.now()
 
     formatted_date = now.strftime("%m-%d-%Y")
